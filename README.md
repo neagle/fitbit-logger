@@ -8,10 +8,10 @@ I track my weight and activity using my Fitbit: this is a simple reporting scrip
 
 You'll need to create an app for yourself using Fitbit's developer portal. (This is set up as a personal-use convenience script!) Then you should use the [oauth tutorial](https://dev.fitbit.com/apps/oauthinteractivetutorial) to get the content to put in four files:
 
-- .client_id
-- .client_secret
-- .access_token
-- .refresh_token
+- `.client_id`
+- `.client_secret`
+- `.access_token`
+- `.refresh_token`
 
 Once you've one this for the first time, the script should be able to take care of all future token refreshing on its own.
 
